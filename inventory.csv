@@ -1,0 +1,32 @@
+Category,Item,Expiry_Date,Price,Supplier
+Dairy,Truffle Cheese,2024-12-15,$25.00,Gourmet Foods Inc.
+Dairy,Buffalo Mozzarella,2024-06-13,$15.00,Italian Delicacies
+Dairy,Brie de Meaux,2024-06-20,$18.00,French Cheese Co.
+Dairy,Roquefort,2024-06-13,$22.00,Gourmet Foods Inc.
+Dairy,Aged Gouda,2025-06-15,$30.00,Italian Delicacies
+Dairy,Mascarpone,2024-06-13,$10.00,French Cheese Co.
+Dairy,Burrata,2024-06-10,$12.00,Gourmet Foods Inc.
+Dairy,Époisses de Bourgogne,2024-06-12,$20.00,French Cheese Co.
+Dairy,Gorgonzola Dolce,2024-06-14,$18.00,Italian Delicacies
+Dairy,Comté,2024-06-18,$25.00,Gourmet Foods Inc.
+Canned Goods,Caviar,2024-06-01,$100.00,Luxury Caviar Co.
+Canned Goods,Foie Gras,2024-06-15,$50.00,French Gourmet
+Canned Goods,Anchovies in Olive Oil,2024-12-10,$12.00,Seafood Delights
+Canned Goods,Smoked Oysters,2024-06-30,$15.00,Seafood Delights
+Canned Goods,Truffle Mushrooms,2024-06-08,$30.00,Luxury Caviar Co.
+Canned Goods,Marinated Artichoke Hearts,2024-06-10,$18.00,French Gourmet
+Canned Goods,Confit de Canard,2023-06-12,$40.00,Seafood Delights
+Canned Goods,Tinned Octopus,2024-06-18,$35.00,French Gourmet
+Canned Goods,Baba Ganoush,2024-06-20,$10.00,Seafood Delights
+Canned Goods,Canned White Asparagus,2024-06-22,$12.00,Luxury Caviar Co.
+Vegetables,Romanesco Broccoli,2024-06-12,$8.00,Organic Veggie Farm
+Vegetables,Purple Cauliflower,2024-12-18,$7.00,Healthy Harvest
+Vegetables,Watermelon Radish,2024-06-05,$5.00,Farm Fresh Produce
+Vegetables,Rainbow Carrots,2024-06-20,$6.00,Colorful Veggies Co.
+Vegetables,Fiddlehead Ferns,2024-06-15,$10.00,Organic Veggie Farm
+Vegetables,Microgreens,2024-06-03,$4.00,Urban Greens
+Vegetables,Heirloom Tomatoes,2024-06-18,$9.00,Farm Fresh Produce
+Vegetables,White Asparagus,2024-06-22,$15.00,Healthy Harvest
+Vegetables,Chioggia Beets,2024-06-25,$7.00,Organic Veggie Farm
+Vegetables,Purple Brussels Sprouts,2024-06-28,$12.00,Healthy Harvest
+Vegetables,Yellow Bell Peppers,2024-07-01,$5.00,Colorful Veggies Co.
