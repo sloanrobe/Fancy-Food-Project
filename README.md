@@ -1,4 +1,20 @@
-1.  Search current inventory list
+Search Supplier Quality list:
+
+    If item has quality of 'OK', adjust the expiry date:
+        Dairy - reduce by 2 days
+        Canned Goods - reduce by 1 month
+        Vegetables - reduce by 1 day
+
+Search Item Inventory list:
+
+    Throw out all expired items.
+
+    Reduce item price based on following parameters:
+        For Dairy, reduce price by 50% is expiry < 4 days
+        For Canned Goods, reduce price by 25% is expiry < 3 months
+        For Vegetables, reduce price by 40% is expiry < 3 days
+
+<!-- 1.  Search current inventory list
     a. Check expiration dates
 
 2.  Search supplier quality list
@@ -18,3 +34,5 @@
         3.  Items expiring 
 
 2.  Search Supplier Quality list 
+
+ -->
