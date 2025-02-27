@@ -1,6 +1,6 @@
 import { Inventory } from "./App";
 
-class product {
+class FoodItem {
     category: string;
     item: string;
     expiry_date: string;
