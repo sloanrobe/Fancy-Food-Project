@@ -1,6 +1,4 @@
-import { Inventory } from "./App";
-
-class FoodItem {
+export class FoodItem {
     category: string;
     item: string;
     expiry_date: string;
