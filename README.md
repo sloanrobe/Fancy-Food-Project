@@ -1,3 +1,7 @@
+Convert inventory.csv to objects
+
+Convert supplierQuality.csv to objects
+
 Search Supplier Quality list:
 
     If item has quality of 'OK', adjust the expiry date:
