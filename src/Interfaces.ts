@@ -5,3 +5,8 @@ export interface FoodItem {
     price: number;
     supplierId: string;
   }
+  
+  export interface Supplier {
+    supplier: string;
+    quality_score: 'Ok' | 'Good' | 'Superb';
+  }
