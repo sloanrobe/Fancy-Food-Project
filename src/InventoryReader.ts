@@ -1,5 +1,5 @@
 import fs from 'fs'
-import { FoodItem } from './foodItem'
+import { FoodItem } from './FoodItem'
 
 export class InventoryReader {
     filePath = './data/inventory.csv'
@@ -23,7 +23,7 @@ export class InventoryReader {
                     foodItems.push(product)
                 }
             }
-        })
-        return foodItems
+        }) 
+        return foodItems  
     }
 }
