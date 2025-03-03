@@ -11,11 +11,11 @@ export class FoodItem {
         this.expiry_date = expiry_date,
         this.price = price,
         this.supplier = supplier
+    }
 
-    
-    
+    throwOut(): string {
+        return `The ${this.item} expired on ${this.expiry_date} and should be thrown out.`
     }
 }
-
 // Should I use Class or Type?
 
