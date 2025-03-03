@@ -1,3 +1,4 @@
+import { FoodItem } from "./FoodItem"
 import { InventoryReader } from "./InventoryReader"
 
 async function run() {
@@ -7,6 +8,3 @@ async function run() {
 }
 
 run()
-
-// Which one to use:  Inventory or FoodItem?
-// I wanted to use inventoryData.ts as a landing spot for 
