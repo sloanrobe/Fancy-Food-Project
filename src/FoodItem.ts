@@ -17,5 +17,3 @@ export class FoodItem {
         return `The ${this.item} expired on ${this.expiry_date} and should be thrown out.`
     }
 }
-// Should I use Class or Type?
-
