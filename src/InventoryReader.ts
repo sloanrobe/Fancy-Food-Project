@@ -8,7 +8,7 @@ export class InventoryReader {
         return await this.readFile()
     }
 
-    async readFile() {
+    readFile() {
         const foodItems: FoodItem[] = []
         fs.readFile(this.filePath, 'utf-8', (err, fileContent) => {
             if (err) {

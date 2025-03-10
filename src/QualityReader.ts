@@ -50,7 +50,6 @@ export class QualityReader {
                     for (let i = 0; i < lines.length; i++) {
                         const productString = lines[i];  
                         const values = productString.split(',')
-                        //const priceSplit = values[3].split('$')
                         const product = new Supplier(values[0], values[1])
                         suppliers.push(product)
                     }
