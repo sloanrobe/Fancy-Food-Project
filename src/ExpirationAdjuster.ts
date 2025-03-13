@@ -12,7 +12,6 @@ export class ExpirationAdjuster {
     checkQuality(suppliers: Supplier[], foodItems: FoodItem[]) {
         for (let i = 0; i < suppliers.length; i++) {
             const element = suppliers[i];
-            element.quality_score
             
             if (element.quality_score === 'Ok') {
                 for (let j = 0; j < foodItems.length; j++) {
@@ -27,9 +26,11 @@ export class ExpirationAdjuster {
                         } else if (foodItem.category === 'Canned Goods') {
                             expiryDate.setMonth(expiryDate.getMonth() - 1)
                         }
+                        foodItem.expiry_date = expiryDate.toISOString().split('T')[0]
                     }
                 }   
             }
         }
+        return foodItems
     }
 }
