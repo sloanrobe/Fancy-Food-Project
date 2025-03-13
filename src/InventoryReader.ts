@@ -51,7 +51,7 @@ export class InventoryReader {
                         const productString = lines[i];  
                         const values = productString.split(',')
                         const priceSplit = values[3].split('$')
-                        const product = new FoodItem(values[0], values[1], values[2], Number(priceSplit[1]), values[4])
+                        const product = new FoodItem(values[0], values[1], new Date(values[2]), Number(priceSplit[1]), values[4])
                         foodItems.push(product)
                     }
                 }
