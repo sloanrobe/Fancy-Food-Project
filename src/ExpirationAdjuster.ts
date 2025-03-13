@@ -26,7 +26,7 @@ export class ExpirationAdjuster {
                         } else if (foodItem.category === 'Canned Goods') {
                             expiryDate.setMonth(expiryDate.getMonth() - 1)
                         }
-                        foodItem.expiry_date = expiryDate.toISOString().split('T')[0]
+                        foodItem.expiry_date = expiryDate
                     }
                 }   
             }
