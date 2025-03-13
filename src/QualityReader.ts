@@ -55,8 +55,7 @@ export class QualityReader {
                     }
                 }
                 resolve(suppliers)
-            }) 
-              
+            })     
         })
     }
 }
