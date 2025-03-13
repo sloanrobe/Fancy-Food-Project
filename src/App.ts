@@ -17,4 +17,8 @@ async function runQuality() {
     //console.log(actualQuality)
 }
 
+async function runPrice() {
+    
+}
+
 runQuality()
