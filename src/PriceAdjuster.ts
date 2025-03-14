@@ -19,14 +19,17 @@ export class PriceAdjuster {
                 foodItem.price *= 0.5
             } else if (foodItem.category === 'Vegetables' && this.shouldUpdatePrice(foodItem.expiry_date, new Date('2024-06-10'), 3)) {
                 foodItem.price *= 0.6
-            } else (foodItem.category === 'Canned Goods') {
+            } else if (foodItem.category === 'Canned Goods') {
                 const expiryDate = new Date(foodItem.expiry_date)
                 const threeMonthsFromNow = new Date(today)
                 threeMonthsFromNow.setMonth(today.getMonth() + 3)
                 if (expiryDate < threeMonthsFromNow) {
                     foodItem.price *= 0.75
                 } 
-            }  
+            } else {
+                console.log('We do not recognize that food item category.')
+            }
         }
+        return
     }
 }
