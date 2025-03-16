@@ -6,13 +6,7 @@ import { FoodItem } from "./FoodItem";
 export class PriceAdjuster {
     
     shouldUpdatePrice(date1: Date, date2: Date, daysInBetween: Number) {
-        if ((date1 - date2) <= daysInBetween) {
-            return true
-        } else {
-
-        }
-        
-        //return true
+       return true
     }
     
     checkPrice(foodItems: FoodItem[]) {
