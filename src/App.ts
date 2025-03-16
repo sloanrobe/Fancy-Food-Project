@@ -30,7 +30,7 @@ async function runQuality() {
         } 
     } */
     
-    console.log("Adjusted Products After Expiration Adjustment:", adjustedProducts)
+    //console.log("Adjusted Products After Expiration Adjustment:", adjustedProducts)
     return adjustedProducts
 }
 

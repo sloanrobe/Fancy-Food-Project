@@ -1,6 +1,3 @@
-// Purpose of this file is to implement functionality to adjust expiration dates for
-// every food item that has quality of 'Ok'
-
 import { FoodItem } from "./FoodItem"
 import { InventoryReader } from "./InventoryReader"
 import { QualityReader } from "./QualityReader"
